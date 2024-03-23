@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>NASA's Picture of the Day API</title>
+</head>
+<body>
+    
+    
+    <section id="current-image-container"></section>
+
+    <h2>Search for a Picture of The day</h2>
+    <form id="search-form">
+        <label for="search-input">Select Date:</label>
+        <input type="date" id="search-input" required>
+        <button type="button" onclick="getImageOfTheDay()">Submit</button>
+    </form>
+
+    
+    <h3>Previous Searches</h3>
+    <ul id="search-history"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
